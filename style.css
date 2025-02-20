@@ -19,7 +19,12 @@ body {
     
     padding: 0 30px;
     border-radius: 10px;
-    background-color: #16151c87;
+    background-color: #16151cd1;
+    transition: background-color 0.2s ease-in;
+  }
+
+  .wrapper:hover {
+    background-color: #101016eb;
   }
 
   h1 {
